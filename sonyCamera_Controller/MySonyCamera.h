@@ -51,7 +51,7 @@ public:
 
 	//Ã~‰æB‰e
 	void capture() {
-		//active(0);
+		active(0);
 		SendKey('1');
 	}
 

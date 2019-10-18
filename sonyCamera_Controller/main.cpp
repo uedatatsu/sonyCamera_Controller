@@ -11,7 +11,7 @@ int main()
 	cam.active(0);
 
 	cam.capture();
-	Sleep(5000);		//連続で撮影する場合、待ち時間を入れる
+	Sleep(5000);		//連続で撮影する場合、待ち時間を入れる（シャッタースピード依存）
 	cam.capture();
 
 }
